@@ -1,0 +1,9 @@
+test with model.get_env()
+mean_reward=1.73 +/- 1.6304709685963255
+mean_reward=1.45 +/- 1.3061046592189347
+mean_reward=1.64 +/- 1.4284108289681263
+
+test with new initialized env (non-vec)
+mean_reward=2.38 +/- 1.9067618113494984
+mean_reward=1.53 +/- 1.4316777708994561
+mean_reward=3.92 +/- 2.396622756710563
