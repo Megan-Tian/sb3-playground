@@ -29,7 +29,7 @@ env = gym.make(
 
 env = gym.wrappers.RecordVideo(
     env=env, 
-    video_folder="./videos/deadly_corridor_cfg", 
+    video_folder="./deadly_corridor_cfg", 
     name_prefix=f"{datetime.now()}",
     episode_trigger=lambda x: True, # this records every episode
 )
